@@ -1,0 +1,56 @@
+body{
+  width:100vw;
+  font-family: 'Lato', sans-serif;
+}
+
+header{
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  height:12vh;
+  background-color: brown;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h1{
+  color: #fff;
+}
+      
+      .products {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .product {
+        width: calc(20% - 10px);
+        margin: 5px;
+        text-align: center;
+        border: 1px solid black;
+      }
+      .product img {
+        width: 100%;
+        height: auto;
+      }
+      .cart {
+        margin-top: 30px;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: bisque;
+      }
+
+      .add-to-cart-btn {
+        cursor: pointer;
+      }
+
+      #pay-btn{
+        cursor: pointer;
+        background-color: yellow;
+        font-size: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
+       
+      }
+      .payButton{
+        text-align: center;
+      }
